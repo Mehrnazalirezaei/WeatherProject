@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:title="Change city"
+        android:id="@+id/changecityitem" />
+    <item
+        android:icon="@mipmap/ic_launcher"
+        android:title="aboutWeather"
+        android:id="@+id/aboutWeather" />
+</menu>

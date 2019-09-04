@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/TextMain"
+        android:textSize="25sp"
+        tools:ignore="InvalidId"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="323dp"
+        android:layout_below="@id/TextMain"
+        android:text="Weather is the state of the atmosphere,
+         describing for example the degree to which it is hot
+         or cold, wet or dry, calm or stormy, clear or cloudy
+          Most weather phenomena occur in the lowest level of
+          the atmosphere, the troposphere,just below the
+          stratosphere. Weather refers to day-to-day temperature
+          and precipitation activity, whereas climate is the term
+          for the averaging of atmospheric conditions over longer
+           periods of time.When used without qualification,
+    weather is generally understood to mean the weather of Earth"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BtnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="center"/>
+</LinearLayout>
